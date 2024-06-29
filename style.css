@@ -44,7 +44,30 @@ padding: 16px;
     flex-direction: column;
     gap: 20px;
     color: white;
+}
 
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+.list a {
+    text-decoration: none;
+    color: black;
+}
+
+.list a:hover {
+    text-decoration: underline;
+    color: #025464;
+    transition: 0.5s;
+    background-color: #e8aa42;
+    padding: 10px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+    color: #e8aa42;
+    transition: 0.5s;
 }
 
 .maincontent {
